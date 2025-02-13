@@ -32,25 +32,25 @@ git clone https://github.com/your-username/test-assignment.git
 
 ## 💻 Technologies Used
 
-Flutter
+**Flutter**
 A powerful framework for building cross-platform applications.
 Used to create the user interface, manage state, and implement business logic.
 
-Dart
+**Dart**
 A programming language optimized for building mobile, desktop, and web applications.
 Used for writing algorithms, managing application logic, and interacting with APIs.
 
-BLoC (Business Logic Component)
+**BLoC (Business Logic Component)**
 A state management architecture that separates UI from business logic.
 Implemented using the flutter_bloc package to handle states and events (e.g., UrlBloc for URL validation and ProgressBloc for BFS algorithm progress).
 
-HTTP Package
+**HTTP Package**
 Used to perform RESTful API requests (GET/POST) for backend communication.
 
-Equatable
+**Equatable**
 Simplifies object comparisons, ensuring efficient state updates in the BLoC architecture.
 
-BFS Algorithm
+**BFS Algorithm**
 Implements the Breadth-First Search (BFS) algorithm for finding the shortest path in a graph.
 The algorithm is integrated with the app’s logic and visualized in the user interface.
 
