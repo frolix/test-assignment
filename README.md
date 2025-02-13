@@ -35,24 +35,25 @@ git clone https://github.com/your-username/test-assignment.git
 Flutter
 A powerful framework for building cross-platform applications.
 Used to create the user interface, manage state, and implement business logic.
+
 Dart
 A programming language optimized for building mobile, desktop, and web applications.
 Used for writing algorithms, managing application logic, and interacting with APIs.
+
 BLoC (Business Logic Component)
 A state management architecture that separates UI from business logic.
 Implemented using the flutter_bloc package to handle states and events (e.g., UrlBloc for URL validation and ProgressBloc for BFS algorithm progress).
+
 HTTP Package
 Used to perform RESTful API requests (GET/POST) for backend communication.
+
 Equatable
 Simplifies object comparisons, ensuring efficient state updates in the BLoC architecture.
-Flutter Web
-Enables the app to run in web browsers and deploys it to GitHub Pages.
-GitHub Pages
-A static web hosting platform used to deploy the web version of the app.
-Live demo: https://frolix.github.io/test-assignment/
+
 BFS Algorithm
 Implements the Breadth-First Search (BFS) algorithm for finding the shortest path in a graph.
 The algorithm is integrated with the app’s logic and visualized in the user interface.
+
 ## 🔗 API Requirements
 
 The application communicates with an API for task fetching and result submission. The API must:
