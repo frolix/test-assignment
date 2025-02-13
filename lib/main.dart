@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (_) => UrlBloc(),
       child: MaterialApp(
-        title: 'Flutter BLoC Example',
+        title: 'FlutterTest',
         initialRoute: '/',
         routes: {
           '/': (context) => UrlInputScreen(),
